@@ -234,29 +234,5 @@ describe "Test Etapa 6 - Estadísticas del INTA" {
     assert.equals(parcela2, inta.parcelaMasAutosustentable())
   }
 
-
-  // const parcela1 = new ParcelaEcologica(
-  //   ancho = 20,
-  //   largo = 1,
-  //   horasDeSol = 8
-  // )
-  
-  // const parcela2 = new ParcelaEcologica(
-  //   ancho = 10,
-  //   largo = 2,
-  //   horasDeSol = 9
-  // )
-
-  // method initialize() {
-  //   parcela1.plantar(new Menta(anioDeObtencion = 2024, altura = 0.4))
-  //   parcela2.plantar(new Quinoa(anioDeObtencion = 2002, altura = 0.3, toleranciaSol = 8))
-    
-  //   inta.agregarParcelas([parcela1,parcela2])
-  // }
-
-  // test "promedio de plantas por parcela en el INTA" {
-  //   assert.equals(1, inta.promedioPlantasPorParcela()) // Ajusta el número esperado según los datos
-  // }
-
 }
 
